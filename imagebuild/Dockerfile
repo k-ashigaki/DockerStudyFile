@@ -2,4 +2,4 @@
 
 RUN apt-get -y update && apt-get install -y fortunes
 
-CMD /user/games/fortune | cowsay
+CMD /usr/games/fortune | cowsay
